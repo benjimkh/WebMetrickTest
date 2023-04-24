@@ -19,7 +19,6 @@ extension ViewModel {
         ]
         @Published var filteredTasks : [Model.Task] = []
         
-        @Published var sortType : Model.SortType = .alphabetical
         @Published var status : Model.Status = .completed
         @Published var isPresented = false
         @Published var searched = ""
