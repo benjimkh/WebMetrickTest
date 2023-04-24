@@ -46,14 +46,14 @@
 /* Begin PBXFileReference section */
 		68A7AE9929F6471400331898 /* nameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameView.swift; sourceTree = "<group>"; };
 		68A7AE9B29F648C100331898 /* dateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateView.swift; sourceTree = "<group>"; };
-		B18216F729EFFA4C007BFC92 /* WebMetrickTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMetrickTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18216F729EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Benyamin Mokhtarpour ToDo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18216FA29EFFA4C007BFC92 /* WebMetrickTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetrickTestApp.swift; sourceTree = "<group>"; };
 		B18216FC29EFFA4C007BFC92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B18216FE29EFFA4F007BFC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B182170129EFFA4F007BFC92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B182170729EFFA50007BFC92 /* WebMetrickTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebMetrickTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B182170729EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Benyamin Mokhtarpour ToDo TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B182170B29EFFA50007BFC92 /* WebMetrickTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetrickTestTests.swift; sourceTree = "<group>"; };
-		B182171129EFFA50007BFC92 /* WebMetrickTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebMetrickTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B182171129EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Benyamin Mokhtarpour ToDo TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B182171529EFFA50007BFC92 /* WebMetrickTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetrickTestUITests.swift; sourceTree = "<group>"; };
 		B182171729EFFA50007BFC92 /* WebMetrickTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetrickTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B182172429F01263007BFC92 /* Models.Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.Tasks.swift; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		B18216F829EFFA4C007BFC92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B18216F729EFFA4C007BFC92 /* WebMetrickTest.app */,
-				B182170729EFFA50007BFC92 /* WebMetrickTestTests.xctest */,
-				B182171129EFFA50007BFC92 /* WebMetrickTestUITests.xctest */,
+				B18216F729EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test.app */,
+				B182170729EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestTests.xctest */,
+				B182171129EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B18216F629EFFA4C007BFC92 /* WebMetrickTest */ = {
+		B18216F629EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B182171B29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTest" */;
+			buildConfigurationList = B182171B29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo Test" */;
 			buildPhases = (
 				B18216F329EFFA4C007BFC92 /* Sources */,
 				B18216F429EFFA4C007BFC92 /* Frameworks */,
@@ -196,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = WebMetrickTest;
+			name = "Benyamin Mokhtarpour ToDo Test";
 			productName = WebMetrickTest;
-			productReference = B18216F729EFFA4C007BFC92 /* WebMetrickTest.app */;
+			productReference = B18216F729EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B182170629EFFA50007BFC92 /* WebMetrickTestTests */ = {
+		B182170629EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B182171E29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTestTests" */;
+			buildConfigurationList = B182171E29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo TestTests" */;
 			buildPhases = (
 				B182170329EFFA50007BFC92 /* Sources */,
 				B182170429EFFA50007BFC92 /* Frameworks */,
@@ -214,14 +214,14 @@
 			dependencies = (
 				B182170929EFFA50007BFC92 /* PBXTargetDependency */,
 			);
-			name = WebMetrickTestTests;
+			name = "Benyamin Mokhtarpour ToDo TestTests";
 			productName = WebMetrickTestTests;
-			productReference = B182170729EFFA50007BFC92 /* WebMetrickTestTests.xctest */;
+			productReference = B182170729EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B182171029EFFA50007BFC92 /* WebMetrickTestUITests */ = {
+		B182171029EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B182172129EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTestUITests" */;
+			buildConfigurationList = B182172129EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo TestUITests" */;
 			buildPhases = (
 				B182170D29EFFA50007BFC92 /* Sources */,
 				B182170E29EFFA50007BFC92 /* Frameworks */,
@@ -232,9 +232,9 @@
 			dependencies = (
 				B182171329EFFA50007BFC92 /* PBXTargetDependency */,
 			);
-			name = WebMetrickTestUITests;
+			name = "Benyamin Mokhtarpour ToDo TestUITests";
 			productName = WebMetrickTestUITests;
-			productReference = B182171129EFFA50007BFC92 /* WebMetrickTestUITests.xctest */;
+			productReference = B182171129EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B18216F229EFFA4C007BFC92 /* Build configuration list for PBXProject "WebMetrickTest" */;
+			buildConfigurationList = B18216F229EFFA4C007BFC92 /* Build configuration list for PBXProject "Benyamin Mokhtarpour ToDo Test" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +273,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B18216F629EFFA4C007BFC92 /* WebMetrickTest */,
-				B182170629EFFA50007BFC92 /* WebMetrickTestTests */,
-				B182171029EFFA50007BFC92 /* WebMetrickTestUITests */,
+				B18216F629EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test */,
+				B182170629EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestTests */,
+				B182171029EFFA50007BFC92 /* Benyamin Mokhtarpour ToDo TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -348,12 +348,12 @@
 /* Begin PBXTargetDependency section */
 		B182170929EFFA50007BFC92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B18216F629EFFA4C007BFC92 /* WebMetrickTest */;
+			target = B18216F629EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test */;
 			targetProxy = B182170829EFFA50007BFC92 /* PBXContainerItemProxy */;
 		};
 		B182171329EFFA50007BFC92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B18216F629EFFA4C007BFC92 /* WebMetrickTest */;
+			target = B18216F629EFFA4C007BFC92 /* Benyamin Mokhtarpour ToDo Test */;
 			targetProxy = B182171229EFFA50007BFC92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,9 +481,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebMetrickTest/Preview Content\"";
-				DEVELOPMENT_TEAM = 947C6V5AGA;
+				DEVELOPMENT_TEAM = 8JWSP5KC9K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benyamin Mokhtarpour ToDo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -511,9 +512,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebMetrickTest/Preview Content\"";
-				DEVELOPMENT_TEAM = 947C6V5AGA;
+				DEVELOPMENT_TEAM = 8JWSP5KC9K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benyamin Mokhtarpour ToDo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -549,7 +551,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebMetrickTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebMetrickTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benyamin Mokhtarpour ToDo Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Benyamin Mokhtarpour ToDo Test";
 			};
 			name = Debug;
 		};
@@ -569,7 +571,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebMetrickTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebMetrickTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benyamin Mokhtarpour ToDo Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Benyamin Mokhtarpour ToDo Test";
 			};
 			name = Release;
 		};
@@ -612,7 +614,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B18216F229EFFA4C007BFC92 /* Build configuration list for PBXProject "WebMetrickTest" */ = {
+		B18216F229EFFA4C007BFC92 /* Build configuration list for PBXProject "Benyamin Mokhtarpour ToDo Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B182171929EFFA50007BFC92 /* Debug */,
@@ -621,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B182171B29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTest" */ = {
+		B182171B29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B182171C29EFFA50007BFC92 /* Debug */,
@@ -630,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B182171E29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTestTests" */ = {
+		B182171E29EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B182171F29EFFA50007BFC92 /* Debug */,
@@ -639,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B182172129EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "WebMetrickTestUITests" */ = {
+		B182172129EFFA50007BFC92 /* Build configuration list for PBXNativeTarget "Benyamin Mokhtarpour ToDo TestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B182172229EFFA50007BFC92 /* Debug */,
