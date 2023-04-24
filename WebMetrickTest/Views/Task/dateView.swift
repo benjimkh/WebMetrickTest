@@ -15,12 +15,11 @@ struct dateView: View {
     var task : Model.Task
     
     var body: some View {
-        VStack (alignment:.leading){
             Text("Date :")
                 .font(.caption)
                 .foregroundColor(.secondary)
             Text(task.date , style: .date)
-        }
+        
     }
 }
 

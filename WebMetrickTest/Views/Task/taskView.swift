@@ -18,14 +18,18 @@ struct taskView: View {
             HStack{
                 nameView(task: task)
                 Spacer()
-                dateView(task: task)
+                VStack (alignment:.leading){
+                    Text("Task :")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    Text(task.taskName)
+                        .font(.system(size: 15, weight: .bold))
+                        .italic()
+                }
+
             }
-            Text("Task :")
-                .font(.caption)
-                .foregroundColor(.secondary)
-            Text(task.taskName)
-                .font(.system(size: 15, weight: .bold))
-                .italic()
+            dateView(task: task)
+
         }
         .padding(10)
         .background(
