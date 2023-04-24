@@ -12,10 +12,10 @@ extension ViewModel {
     class Task : Identifiable , ObservableObject {
         
         var tasks : [Model.Task] = [
-            Model.Task(name: "Task 1", taskName: "Medium", date: Date(timeIntervalSinceReferenceDate:1619231231.0), priority: .normal),
-            Model.Task(name: "Task 2", taskName: "Binstant", date: Date(timeIntervalSinceReferenceDate:1621231231.0), priority: .high),
-            Model.Task(name: "Task 3", taskName: "App Store", date: Date(), priority: .medium),
-            Model.Task(name: "Task 4", taskName: "Garden", date: Date(), priority: .normal, status: .completed)
+            Model.Task(name: "Task 1", taskName: "Medium", date: Date(timeIntervalSinceReferenceDate:1619231231.0)),
+            Model.Task(name: "Task 2", taskName: "Binstant", date: Date(timeIntervalSinceReferenceDate:1621231231.0)),
+            Model.Task(name: "Task 3", taskName: "App Store", date: Date()),
+            Model.Task(name: "Task 4", taskName: "Garden", date: Date(), status: .completed)
         ]
         @Published var filteredTasks : [Model.Task] = []
         

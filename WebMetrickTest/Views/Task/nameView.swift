@@ -30,6 +30,6 @@ struct nameView: View {
 
 struct nameView_Previews: PreviewProvider {
     static var previews: some View {
-        nameView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date(), priority: .normal))
+        nameView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date()))
     }
 }

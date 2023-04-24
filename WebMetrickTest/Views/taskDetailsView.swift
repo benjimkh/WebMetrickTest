@@ -16,7 +16,6 @@ struct taskDetailsView: View {
     @State var name = ""
     @State var taskName = ""
     @State var date = Date()
-    @State var priority : Model.Priority = .normal
     
     var body: some View {
         NavigationView{
@@ -41,7 +40,7 @@ struct taskDetailsView: View {
                                                     Text("Cancel")
                                                     .foregroundColor(.red)
                                                 }),
-                                trailing: Button(action:{taskVM.addTask(task: .init(name: name, taskName: taskName, date: date, priority: priority))
+                                trailing: Button(action:{taskVM.addTask(task: .init(name: name, taskName: taskName, date: date))
                                                     presentationMode.wrappedValue.dismiss()},
                                                    label:{
                                                     Text("Save")

@@ -29,16 +29,16 @@ struct taskView: View {
         }
         .padding(10)
         .background(
-            task.priority.color.opacity(0.2))
+            .red.opacity(0.5))
         .background(
-            RoundedRectangle(cornerRadius: 10 , style: .continuous)
-                .stroke(task.priority.color , lineWidth: 0.7)
-                .shadow(color: task.priority.color, radius: 0.7))
+            Rectangle()
+                .stroke(.red , lineWidth: 0.7)
+                .shadow(color: .red, radius: 0.0))
     }
 }
 
 struct taskView_Previews: PreviewProvider {
     static var previews: some View {
-        taskView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date(), priority: .normal))
+        taskView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date()))
     }
 }

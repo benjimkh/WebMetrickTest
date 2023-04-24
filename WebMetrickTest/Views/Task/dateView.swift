@@ -27,6 +27,6 @@ struct dateView: View {
 
 struct dateView_Previews: PreviewProvider {
     static var previews: some View {
-        dateView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date(), priority: .normal))
+        dateView(task: Model.Task(id: "", name: "Name", taskName: "Task Name", date: Date()))
     }
 }
