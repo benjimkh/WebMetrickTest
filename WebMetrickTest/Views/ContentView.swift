@@ -11,15 +11,13 @@ struct ContentView: View {
     
     @StateObject var taskVM = ViewModel.Task.init()
     
-    @State var searched = ""
-    
     var body: some View {
             NavigationView{
                 VStack{
                     sortPickerView(taskVM : taskVM)
                     taskListView(taskVM : taskVM)
                 }
-                .modifier(NavItemsView(taskVM : taskVM))
+                .modifier(Modifier(taskVM : taskVM))
             }
     }
 }

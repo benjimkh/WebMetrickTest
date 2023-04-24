@@ -1,5 +1,5 @@
 //
-//  View.List.swift
+//  taskView.swift
 //  WebMetrickTest
 //
 //  Created by Benyamin Mokhtarpur on 4/19/23.
@@ -16,22 +16,11 @@ struct taskView: View {
     var body: some View {
         VStack (alignment : .leading){
             HStack{
-                VStack(alignment:.leading) {
-                    Text("Name:")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                    Text(task.name)
-                        .font(.system(size: 20, weight: .bold))
-                }
+                nameView(task: task)
                 Spacer()
-                VStack (alignment:.leading){
-                    Text("Date:")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                    Text(task.date , style: .date)
-                }
+                dateView(task: task)
             }
-            Text("Task:")
+            Text("Task :")
                 .font(.caption)
                 .foregroundColor(.secondary)
             Text(task.taskName)
@@ -41,7 +30,6 @@ struct taskView: View {
         .padding(10)
         .background(
             task.priority.color.opacity(0.2))
-        .cornerRadius(10)
         .background(
             RoundedRectangle(cornerRadius: 10 , style: .continuous)
                 .stroke(task.priority.color , lineWidth: 0.7)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68A7AE9A29F6471400331898 /* nameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7AE9929F6471400331898 /* nameView.swift */; };
+		68A7AE9C29F648C100331898 /* dateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7AE9B29F648C100331898 /* dateView.swift */; };
 		B18216FB29EFFA4C007BFC92 /* WebMetrickTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18216FA29EFFA4C007BFC92 /* WebMetrickTestApp.swift */; };
 		B18216FD29EFFA4C007BFC92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18216FC29EFFA4C007BFC92 /* ContentView.swift */; };
 		B18216FF29EFFA4F007BFC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18216FE29EFFA4F007BFC92 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68A7AE9929F6471400331898 /* nameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameView.swift; sourceTree = "<group>"; };
+		68A7AE9B29F648C100331898 /* dateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateView.swift; sourceTree = "<group>"; };
 		B18216F729EFFA4C007BFC92 /* WebMetrickTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMetrickTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18216FA29EFFA4C007BFC92 /* WebMetrickTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetrickTestApp.swift; sourceTree = "<group>"; };
 		B18216FC29EFFA4C007BFC92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68A7AE9829F6470400331898 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				B182172A29F0142D007BFC92 /* taskView.swift */,
+				68A7AE9929F6471400331898 /* nameView.swift */,
+				68A7AE9B29F648C100331898 /* dateView.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
 		B18216EE29EFFA4C007BFC92 = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B18216FC29EFFA4C007BFC92 /* ContentView.swift */,
-				B182172A29F0142D007BFC92 /* taskView.swift */,
+				68A7AE9829F6470400331898 /* Task */,
 				B182172C29F0153B007BFC92 /* taskListView.swift */,
 				B182172E29F01571007BFC92 /* sortPickerView.swift */,
 				B182173029F015A7007BFC92 /* taskDetailsView.swift */,
@@ -299,8 +313,10 @@
 			files = (
 				B18216FD29EFFA4C007BFC92 /* ContentView.swift in Sources */,
 				B182173529F016CD007BFC92 /* Modifiers.swift in Sources */,
+				68A7AE9C29F648C100331898 /* dateView.swift in Sources */,
 				B182173329F01602007BFC92 /* ViewModel.Task.swift in Sources */,
 				B182172529F01263007BFC92 /* Models.Tasks.swift in Sources */,
+				68A7AE9A29F6471400331898 /* nameView.swift in Sources */,
 				B182172B29F0142D007BFC92 /* taskView.swift in Sources */,
 				B182172829F01281007BFC92 /* NameSpacing.swift in Sources */,
 				B182173129F015A7007BFC92 /* taskDetailsView.swift in Sources */,

@@ -25,17 +25,7 @@ struct taskDetailsView: View {
                     TextField("Name ", text : $name)
                     TextField("Task Name ", text : $taskName)
                 }
-                Section {
-                    Picker("Priority", selection: $priority) {
-                        ForEach(Model.Priority.allCases) { priority in
-                            Label(
-                                title: { Text(priority.title) },
-                                icon: { Image(systemName: "exclamationmark.circle") })
-                                .foregroundColor(priority.color)
-                                .tag(priority)
-                        }
-                    }
-                }
+                
                 
                 DisclosureGroup("Date") {
                     DatePicker("", selection: $date)

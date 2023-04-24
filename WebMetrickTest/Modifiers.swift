@@ -8,14 +8,14 @@
 import Foundation
 import SwiftUI
 
-struct NavItemsView : ViewModifier {
+struct Modifier : ViewModifier {
     
     @ObservedObject var taskVM : ViewModel.Task
     
     func body(content : Content) -> some View {
         
         content
-            .navigationBarTitle("My Tasks")
+            .navigationBarTitle("To DO")
             .navigationBarItems(trailing: HStack(spacing:30){
                 EditButton()
                     .disabled(taskVM.tasks.isEmpty)
